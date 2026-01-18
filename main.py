@@ -30,24 +30,25 @@ result = client.predict(
 
 img = Image.open(result[1])
 img.show()
-# image_np = np.array(img)
+image_np = np.array(img)
 
-# fig, ax = plt.subplots(1, figsize=(8, 8))
-# ax.imshow(image_np)
-# ax.set_title("Bounding Boxes")
+fig, ax = plt.subplots(1, figsize=(8, 8))
+ax.imshow(image_np)
+ax.set_title("Bounding Boxes")
 
-# # Get image height and width
-# height, width = image_np.shape[:2]
+# Get image height and width
+height, width = image_np.shape[:2]
 
-# # Draw each bounding box
-# for i, (x1, y1, x2, y2) in enumerate(bounding_box):
-#     rect = patches.Rectangle(
-#         (x1 * width, y1 * height),             # top-left corner (scaled)
-#         (x2 - x1) * width, (y2 - y1) * height, # width and height (scaled)
-#         linewidth=2, edgecolor='red', facecolor='none'
-#     )
-#     ax.add_patch(rect)
-#     ax.text(x1 * width, y1 * height - 5, f"Box {i+1}", color='red', fontsize=10, weight='bold')
+# Draw each bounding box
+for i, (x1, y1, x2, y2) in enumerate(bounding_box):
+    rect = patches.Rectangle(
+        (x1 * width, y1 * height),             # top-left corner (scaled)
+        (x2 - x1) * width, (y2 - y1) * height, # width and height (scaled)
+        linewidth=2, edgecolor='red', facecolor='none'
+    )
+    ax.add_patch(rect)
+    ax.text(x1 * width, y1 * height - 5, f"Box {i+1}", color='red', fontsize=10, weight='bold')
 
-# plt.axis('off')
-# plt.show()
+plt.axis('off')
+
+plt.show()
