@@ -62,4 +62,5 @@ def enrich_regional_prompt(user_input, scene_graph):
     message = create_messages(user_message, system_message)
     regional_prompts = invoke_llm(message)
 
+
     return list(regional_prompts.values())
