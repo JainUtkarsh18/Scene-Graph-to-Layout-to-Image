@@ -1,3 +1,4 @@
+# Given by the Author.
 __image__
 window
 tree
@@ -177,3 +178,4 @@ basket
 plane
 key
 tie
+
