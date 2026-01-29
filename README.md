@@ -1,5 +1,5 @@
 # sg2im
-**This ReadMe and Code are of the author. I am trying to implement something on it.**
+**This ReadMe and Code are of the author. I am learning and trying to implement some ideas of it.**
 
 This is the code for the paper
 
@@ -94,6 +94,7 @@ This script can also draw images for the scene graphs themselves using [GraphViz
 
 ## Training new models
 Instructions for training new models can be [found here](TRAINING.md).
+
 
 
 
