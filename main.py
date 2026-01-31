@@ -5,7 +5,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 import numpy as np
-# Author code.
+
 user_input = (
     "A man wearing a hat is sitting on a chair beside a table. "
     "On the table, there is a plate. "
@@ -53,3 +53,5 @@ plt.axis('off')
 
 plt.show()
 
+
+# The above code is the author's code.
