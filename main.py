@@ -49,9 +49,10 @@ for i, (x1, y1, x2, y2) in enumerate(bounding_box):
     ax.add_patch(rect)
     ax.text(x1 * width, y1 * height - 5, f"Box {i+1}", color='red', fontsize=10, weight='bold')
 
-plt.axis('off')
+plt.axis('off') # plot scene graph
 
 plt.show()
 
 
 # The above code is the author's code.
+
