@@ -95,9 +95,6 @@ This script can also draw images for the scene graphs themselves using [GraphViz
 ## Training new models
 Instructions for training new models can be [found here](TRAINING.md).
 
-
-
-
-
+# All above is author's readme.
 
 
