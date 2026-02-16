@@ -4,7 +4,7 @@
 This is the code for the paper
  
 **<a href="https://arxiv.org/abs/1804.01622">Image Generation from Scene Graphs</a>**
-<br> 
+<br>  
 <a href="http://cs.stanford.edu/people/jcjohns/">Justin Johnson</a>, 
 <a href="http://web.stanford.edu/~agrim/">Agrim Gupta</a>,
 <a href="http://vision.stanford.edu/feifeili/">Li Fei-Fei</a>
@@ -96,6 +96,7 @@ This script can also draw images for the scene graphs themselves using [GraphViz
 Instructions for training new models can be [found here](TRAINING.md).
 
 # All above is author's readme.
+
 
 
 
