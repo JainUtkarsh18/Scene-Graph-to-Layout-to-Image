@@ -44,7 +44,7 @@ If you find this code useful in your research then please cite
   year={2018}
 }
 ```
-
+ 
 ## Model
 The input scene graph is processed with a *graph convolution network* which passes information along edges to compute embedding vectors for all objects. These vectors are used to predict bounding boxes and segmentation masks for all objects, which are combined to form a coarse *scene layout*. The layout is passed to a *cascaded refinement network* (Chen an Koltun, ICCV 2017) which generates an output image at increasing spatial scales. The model is trained adversarially against a pair of *discriminator networks* which ensure that output images look realistic.
 
@@ -96,6 +96,7 @@ This script can also draw images for the scene graphs themselves using [GraphViz
 Instructions for training new models can be [found here](TRAINING.md).
 
 # All above is author's readme.
+
 
 
 
