@@ -8,7 +8,7 @@ import numpy as np
 
 user_input = (
     "A man wearing a hat is sitting on a chair beside a table. "
-    "On the table, there is a plate. "
+    "On the table, there is a plate. " 
 )
 
 scene_graph = create_scene_graph(user_input)
@@ -55,4 +55,5 @@ plt.show()
 
 
 # The above code is the author's code.
+
 
