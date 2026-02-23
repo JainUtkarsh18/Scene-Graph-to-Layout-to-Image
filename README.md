@@ -14,28 +14,6 @@ Presented at [CVPR 2018](http://cvpr2018.thecvf.com/)
 Please note that this is not an officially supported Google product.  
 
 A **scene graph** is a structured representation of a visual scene where nodes represent *objects* in the scene and edges represent *relationships* between objects. In this paper we present and end-to-end neural network model that inputs a scene graph and outputs an image.
-
-Below we show some example scene graphs along with images generated from those scene graphs using our model. By modifying the input scene graph we can exercise fine-grained control over the objects in the generated image.
-
-<div align='center'>
-  <img src='images/sheep/sg000000.png' width='112px'>
-  <img src='images/sheep/sg000001.png' width='112px'>
-  <img src='images/sheep/sg000002.png' width='112px'>
-  <img src='images/sheep/sg000003.png' width='112px'>
-  <img src='images/sheep/sg000004.png' width='112px'>
-  <img src='images/sheep/sg000005.png' width='112px'>
-  <img src='images/sheep/sg000006.png' width='112px'>
-  <br>
-  <img src='images/sheep/img000000.png' height='112px'>
-  <img src='images/sheep/img000001.png' height='112px'>
-  <img src='images/sheep/img000002.png' height='112px'>
-  <img src='images/sheep/img000003.png' height='112px'>
-  <img src='images/sheep/img000004.png' height='112px'>
-  <img src='images/sheep/img000005.png' height='112px'>
-  <img src='images/sheep/img000006.png' height='112px'>
-</div>
-
-If you find this code useful in your research then please cite
 ```
 @inproceedings{johnson2018image,
   title={Image Generation from Scene Graphs},
@@ -96,6 +74,7 @@ This script can also draw images for the scene graphs themselves using [GraphViz
 Instructions for training new models can be [found here](TRAINING.md).
 
 # All above is author's readme.
+
 
 
 
