@@ -3,7 +3,7 @@ from utils import get_prompt, create_messages, invoke_llm
 with open("scene_graph_to_layout_objects.txt",'r') as file:
     nodes = []
     for line in file:
-        nodes.append(line.split('\n')[0])
+        nodes.append(line.split('\n')[0]) 
 
 with open("scene_graph_to_layout_relations.txt",'r') as file:
     edges = []
@@ -64,3 +64,4 @@ def enrich_regional_prompt(user_input, scene_graph):
 
 
     return list(regional_prompts.values())
+
