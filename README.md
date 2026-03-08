@@ -12,7 +12,7 @@ This is the code for the paper
 Presented at [CVPR 2018](http://cvpr2018.thecvf.com/)
 
 Please note that this is not an officially supported Google product.  
-
+ 
 A **scene graph** is a structured representation of a visual scene where nodes represent *objects* in the scene and edges represent *relationships* between objects. In this paper we present and end-to-end neural network model that inputs a scene graph and outputs an image.
 ```
 @inproceedings{johnson2018image,
@@ -74,6 +74,7 @@ This script can also draw images for the scene graphs themselves using [GraphViz
 Instructions for training new models can be [found here](TRAINING.md).
 
 # All above is author's readme.
+
 
 
 
