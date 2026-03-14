@@ -1,5 +1,5 @@
 # sg2im
-**This ReadMe and Code are of the author. I am learning and trying to implement some ideas of it.** 
+**This ReadMe and Code are of the author. I am learning and trying to implement some ideas of it.**  
 
 This is the code for the paper
  
