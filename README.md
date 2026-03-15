@@ -7,7 +7,7 @@ This is the code for the paper
 <br>   
 <a href="http://cs.stanford.edu/people/jcjohns/">Justin Johnson</a>,   
 <a href="http://web.stanford.edu/~agrim/">Agrim Gupta</a>,
-<a href="http://vision.stanford.edu/feifeili/">Li Fei-Fei</a>
+<a href="http://vision.stanford.edu/feifeili/">Li Fei-Fei</a> 
 <br> 
 Presented at [CVPR 2018](http://cvpr2018.thecvf.com/)
 
