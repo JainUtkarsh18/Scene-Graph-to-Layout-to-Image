@@ -1,6 +1,6 @@
 # sg2im
 **This ReadMe and Code are of the author. I am learning and trying to implement some ideas of it.**  
-
+ 
 This is the code for the paper
  
 **<a href="https://arxiv.org/abs/1804.01622">Image Generation from Scene Graphs</a>** 
